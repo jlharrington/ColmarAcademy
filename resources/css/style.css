@@ -1,0 +1,264 @@
+/* style.css for Colmar Academy */
+/* Updated 2017-09-12 */
+
+html, body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: darkslategray;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+
+
+header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+}
+
+nav {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 24px;
+
+}
+
+.logo span {
+  font-weight: 200;
+}
+
+.logo span.bold{
+  font-weight: 500;
+}
+
+.logo img {
+  height: 32px;
+}
+
+.navigation {
+  padding-right: 24px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation li {
+  padding-left: 16px;
+}
+
+.splash {
+  background-color: gainsboro;
+
+}
+
+.splash-img {
+  padding: 32px 24px;
+  width: 60%
+}
+
+.splash-img img {
+  width: 100%;
+}
+
+.splash-desc {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.splash-desc-detail {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.button {
+  width: 100%;
+  background-color: #3a3a3a;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #5e9e9d;
+  color: #303030;
+  font-weight: 600;
+  /*#638a8c;*/
+}
+
+.promos {
+  background-color: whitesmoke;
+}
+
+.promo {
+  display: flex;
+  padding: 16px 16px;
+}
+
+.border {
+  border: solid 1px gainsboro;
+}
+
+.promo h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.promo:hover {
+  background-color: gainsboro;
+}
+
+.promo-main {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.promo-main-img img {
+  width: 100%;
+}
+
+.promo-main-desc {
+  padding-top: 32px;
+}
+
+.promo-main-desc p {
+  padding-top: 24px;
+  line-height: 1.2;
+  font-size: 0.9rem;
+}
+
+.promo-others {
+  width: 40%;
+  padding-top: 16px;
+}
+
+.promo-img {
+  width: 35%
+}
+
+.promo-img img {
+  width: 100%;
+  height: auto;
+}
+
+.promo-desc {
+  width: 65%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.promo-desc a {
+  text-decoration: none;
+  color: #4592dc;
+}
+
+.promo-desc p {
+  padding: 8px 0;
+}
+
+.courses {
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.course-grid {
+  padding: 0 72px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.course {
+  width: 33%;
+  margin-bottom: 32px;
+}
+
+.course-img {
+  width: 100%;
+}
+
+.course-img img {
+  max-width: 250px;
+}
+
+.course-desc {
+  max-width: 218px;
+  min-height: 105px;
+  padding: 16px 16px 24px 16px;
+  background-color: white;
+  font-size: 0.85rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.course-desc span {
+  display: block;
+  padding: 8px 0;
+}
+
+.course-desc p {
+  line-height: 1.2;
+}
+
+.thesis-main {
+  padding: 0 24px 32px 24px;
+  width: 60%;
+}
+
+.promo-video video {
+  width: 100%;
+}

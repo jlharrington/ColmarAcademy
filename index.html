@@ -2,31 +2,225 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Colmar Academy</title>
+    <link href="./resources/css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="./resources/css/style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <!-- header -->
     <!-- logo image, navigation -->
     <!-- Mobile version has small logo only, icons for navi -->
+    <header>
+      <nav class="container flex">
+        <div class="logo">
+          <img src="./resources/images/ic-logo.svg" alt="Standing lion Colmar Academy logo" />
+          <span class="bold">COLMAR</span><span>ACADEMY</span>
+        </div>
+        <div class="navigation">
+          <ul role="presentation">
+            <li><a href="#" alt="" title="">On Campus</a></li>
+            <li><a href="#" alt="" title="">Online</a></li>
+            <li><a href="#" alt="" title="">For Companies</a></li>
+            <li><a href="#" alt="" title="">Sign In</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!-- splash -->
     <!-- big image, Lean something new everyday -->
     <!-- Mobile version shrinks image, "Learn something New" underneath -->
+    <div class="splash container flex">
+      <div class="splash-img">
+        <img src="./resources/images/banner.jpg"
+              alt="Two girls and a guy studying outside" title="" />
+      </div>
+      <div class="splash-desc">
+        <div class="splash-desc-detail">
+          <h1>Learn something new everyday</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="button">Start here</div>
+        </div>
+      </div>
+    </div>
 
     <!-- promos -- >
-    <!-- big "It doesn't hurt to keep practicing", column with three small promos - Orientation, campus, guest -->
+    <!-- big "It doesn't hurt to keep practicing",  -->
+      <!-- column with three small promos - Orientation, campus, guest -->
     <!-- Mobile version hides the big image, everything else is one column -->
+    <div class="promos container flex">
+      <div class="promo-main">
+        <div class="promo-main-img">
+          <img src="./resources/images/information-main.jpg"
+                alt="Man sitting outside looking at a textbook" title=""/>
+        </div>
+        <div class="promo-main-desc">
+          <h1>It doesn't hurt to keep practicing</h1>
+          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+            commodo lectus, nec consequat neque. Sed non accumsan urna.
+            Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+            tristique ligula."</p>
+        </div>
+      </div>
+      <div class="promo-others border">
+        <div class="promo border">
+          <div class="promo-img">
+            <img src="./resources/images/information-orientation.jpg" alt="" title=""/>
+          </div>
+          <div class="promo-desc">
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm </p>
+            <a href="#" alt="" title="">Read more</a>
+          </div>
+        </div>
+        <div class="promo border">
+          <div class="promo-img">
+            <img src="./resources/images/information-campus.jpg" alt="" title=""/>
+          </div>
+          <div class="promo-desc">
+            <h2>Our campus</h2>
+            <p>Find which campus is close by you</p>
+            <a href="#" alt="" title="">Read more</a>
+          </div>
+        </div>
+        <div class="promo border">
+          <div class="promo-img">
+            <img src="./resources/images/information-guest-lecture.jpg" alt="" title=""/>
+          </div>
+          <div class="promo-desc">
+            <h2>Our guest lecture</h2>
+            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+            <a href="#" alt="" title="">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- course categories -->
     <!-- title, three columns, two rows of categories -->
     <!-- Mobile version is text buttons only, no images, all one column -->
+    <div class="courses container">
+      <div class="section-header">
+        <h1>Start learning</h1>
+      </div>
+      <div class="course-grid"> <!-- look at bootstrap for this? -->
+        <div class="course">
+          <div class="course-img">
+            <img src="./resources/images/course-software.jpg" alt="" title=""/>
+          </div>
+          <div class="course-desc">
+            <h2>Software engineering</h2>
+            <span>COURSES</span>
+            <p>Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-img">
+            <img src="./resources/images/course-computer-art.jpg" alt="" title=""/>
+          </div>
+          <div class="course-desc">
+            <h2>Computer art</h2>
+            <span>COURSES</span>
+            <p>Imaging &amp; Design, Web Design, Motion Graphics &amp;
+                Visual Effects, Computer Animation</p>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-img">
+            <img src="./resources/images/course-design.jpg" alt="" title=""/>
+          </div>
+          <div class="course-desc">
+            <h2>Design</h2>
+            <span>COURSES</span>
+            <p>User Experience Design, User Research, Visual Design</p>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-img">
+            <img src="./resources/images/course-data.jpg" alt="" title=""/>
+          </div>
+          <div class="course-desc">
+            <h2>Data</h2>
+            <span>COURSES</span>
+            <p>Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-img">
+            <img src="./resources/images/course-business.jpg" alt="" title=""/>
+          </div>
+          <div class="course-desc">
+            <h2>Business</h2>
+            <span>COURSES</span>
+            <p>Product Development, Business Development, Startup</p>
+          </div>
+        </div>
+        <div class="course">
+          <div class="course-img">
+            <img src="./resources/images/course-marketing.jpg" alt="" title=""/>
+          </div>
+          <div class="course-desc">
+            <h2>Marketing</h2>
+            <span>COURSES</span>
+            <p>Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Thesis exhibit -->
     <!-- big movie, column with two small details -->
     <!-- Mobile version is video only, no details -->
+    <div class="promos container">
+      <div class="section-header">
+        <h1>Thesis exhibit</h1>
+      </div>
+      <div class="promo-block flex">
+        <div class="thesis-main">
+          <div class="promo-video">
+            <video controls>
+              <source src="./resources/videos/thesis.mp4">
+              Your browser does not support the video text-align
+            </video>
+          </div>
+          <div class="promo-main-desc">
+            <h2>Reimagine urban</h2>
+            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+              commodo lectus, nec consequat neque. Sed non accumsan urna.
+              Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+              tristique ligula."</p>
+            <span>Emanuel, Sr Strategist at Hiring.com</span>
+          </div>
+        </div>
+        <div class="promo-others">
+          <div class="promos">
+            <div class="promo">
+              <div class="promo-img">
+                <img src="./resources/images/thesis-fisma.jpg" alt="" title=""/>
+              </div>
+              <div class="promo-desc">
+                <h2>Fisma: Design and Prototype</h2>
+                <p>Designer showcase of new prototype product</p>
+              </div>
+            </div>
+            <div class="promo">
+              <div class="promo-img">
+                <img src="./resources/images/thesis-now-and-then.jpg" alt="" title=""/>
+              </div>
+              <div class="promo-desc">
+                <h2>Now and then</h2>
+                <p>Research study about New York</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- footer -->
     <!-- Copyright, terms, privacy -->
     <!-- Mobile omits terms and privacy links -->
+    <footer>
+    </footer>
   </body>
 </html>
