@@ -20,8 +20,6 @@ html, body {
   font-weight: 400;
 }
 
-
-
 header {
   background-color: white;
   display: flex;
@@ -42,15 +40,15 @@ nav {
   align-items: center;
   text-align: center;
   padding-left: 24px;
-
 }
 
-.logo span {
-  font-weight: 200;
+.logo span.grey {
+  font-weight: 300;
+  color: darkgray;
 }
 
 .logo span.bold{
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .logo img {
@@ -102,6 +100,12 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
 .splash-desc-detail {
   width: 80%;
   height: 50%;
@@ -116,6 +120,7 @@ h1 {
   color: white;
   padding: 8px;
   text-align: center;
+  font-weight: 200;
 }
 
 .button:hover {
@@ -134,13 +139,13 @@ h1 {
   padding: 16px 16px;
 }
 
-.border {
-  border: solid 1px gainsboro;
+.border-top-bottom {
+  border-top: solid 1px gainsboro;
+  border-bottom: solid 1px gainsboro;
 }
 
-.promo h2 {
-  font-size: 1.2rem;
-  font-weight: 500;
+.border-left {
+  border-left: solid 1px gainsboro;
 }
 
 .promo:hover {
@@ -166,9 +171,21 @@ h1 {
   font-size: 0.9rem;
 }
 
+.promo-main-desc span {
+  display: block;
+  padding-top: 32px;
+  font-size: 0.8rem;
+}
+
 .promo-others {
   width: 40%;
   padding-top: 16px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .promo-img {
@@ -239,11 +256,6 @@ h1 {
   font-size: 0.85rem;
 }
 
-h2 {
-  font-size: 1.2rem;
-  line-height: 1.4;
-  font-weight: bold;
-}
 
 .course-desc span {
   display: block;
@@ -259,6 +271,30 @@ h2 {
   width: 60%;
 }
 
+.thesis-other {
+  width: 40%;
+}
+
 .promo-video video {
   width: 100%;
+}
+
+footer {
+  background-color: whitesmoke;
+  border-top: solid 1px gainsboro;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 32px 24px;
+  font-size: 0.8rem;
+}
+
+footer ul {
+  display: flex;
+}
+footer ul li {
+  padding-left: 16px;
 }
