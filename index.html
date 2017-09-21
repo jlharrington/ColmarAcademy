@@ -10,47 +10,48 @@
   </head>
   <body>
     <!-- TODO -->
-    <!-- Add alt/title for images -->
     <!-- check for reusable css -->
-    <!-- MOBILE SITE MEDIA QUERIES -->
-    <!-- Accessibility / context tags -->
 
     <!-- header -->
-    <!-- logo image, navigation -->
-    <!-- Mobile version has small logo only, icons for navi -->
     <header>
       <nav class="container flex">
         <div class="logo">
           <img src="./resources/images/ic-logo.svg" alt="Standing lion Colmar Academy logo" />
-          <span class="bold">COLMAR</span><span class="grey">ACADEMY</span>
+          <span class="bold">COLMAR</span><span class="thin">ACADEMY</span>
         </div>
-        <div class="navigation">
+        <div class="navigation" role="presentation">
           <ul role="presentation">
-            <li><a href="#" alt="" title="">On Campus</a></li>
-            <li><a href="#" alt="" title="">Online</a></li>
-            <li><a href="#" alt="" title="">For Companies</a></li>
-            <li><a href="#" alt="" title="">Sign In</a></li>
+            <li><a href="#" title="On Campus">On Campus</a></li>
+            <li><a href="#" title="Online">Online</a></li>
+            <li><a href="#" title="For Companies">For Companies</a></li>
+            <li><a href="#" title="Sign In">Sign In</a></li>
           </ul>
           <ul role="presentation" class="mobile">
-            <li><img src="./resources/images/ic-logo.svg" alt="Standing lion Colmar Academy logo" /></li>
-            <li><a href="#" alt="" title=""><img src="./resources/images/ic-on-campus.svg" alt="" title=""/></a></li>
-            <li><a href="#" alt="" title=""><img src="./resources/images/ic-online.svg" alt="" title=""/></a></li>
-            <li><a href="#" alt="" title=""><img src="./resources/images/ic-login.svg" alt="" title=""/></a></li>
+            <li><img src="./resources/images/ic-logo.svg"
+                  alt="Standing lion Colmar Academy logo" /></li>
+            <li><a href="#" title="On Campus">
+              <img src="./resources/images/ic-on-campus.svg"
+                alt="A chair and desk icon" title="On Campus"/></a></li>
+            <li><a href="#" title="Online">
+              <img src="./resources/images/ic-online.svg"
+                    alt="A computer monitor" title="Online"/></a></li>
+            <li><a href="#" title="Login">
+              <img src="./resources/images/ic-login.svg"
+                    alt="A person icon" title="Login"/></a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <!-- splash -->
-    <!-- big image, Lean something new everyday -->
-    <!-- Mobile version shrinks image, "Learn something New" underneath -->
     <div class="splash container flex">
-      <div class="splash-img">
+      <div class="splash-img" role="presentation">
         <img src="./resources/images/banner.jpg"
-              alt="Two girls and a guy studying outside" title="Learn something new everyday" />
+              alt="Two girls and a guy studying outside"
+              title="Learn something new everyday" />
       </div>
-      <div class="splash-desc">
-        <div class="splash-desc-detail">
+      <div class="splash-desc" role="presentation">
+        <div class="splash-desc-detail" role="presentation">
           <h1>Learn something new everyday</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div class="button">Start here</div>
@@ -58,54 +59,64 @@
       </div>
     </div>
 
-    <!-- promos -- >
-    <!-- big "It doesn't hurt to keep practicing",  -->
-      <!-- column with three small promos - Orientation, campus, guest -->
-    <!-- Mobile version hides the big image, everything else is one column -->
+    <!-- promos -->
     <div class="promos container flex">
-      <div class="promo-main">
-        <div class="promo-main-img">
+      <div class="promo-main" role="presentation">
+        <div class="promo-main-img" role="presentation">
           <img src="./resources/images/information-main.jpg"
-                alt="Man sitting outside looking at a textbook" title="It doesn't hurt to keep practicing"/>
+                alt="Man sitting outside looking at a textbook"
+                title="It doesn't hurt to keep practicing"/>
         </div>
-        <div class="promo-main-desc">
+        <div class="promo-main-desc" role="presentation">
           <h1>It doesn't hurt to keep practicing</h1>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
             commodo lectus, nec consequat neque. Sed non accumsan urna.
-            Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-            tristique ligula."</p>
+            Phasellus sed consequat ex. Etiam eget magna laoreet,
+            efficitur dolor consequat, tristique ligula."</p>
           <span>Emanuel, Sr Strategist at Hiring.com</span>
         </div>
       </div>
-      <div class="promo-others">
-        <div class="promo">
-          <div class="promo-img">
-            <img src="./resources/images/information-orientation.jpg" alt="Birdseye view of students walking to class" title="Orientation"/>
-            <img src="./resources/images/information-orientation-mobile.jpg" alt="Birdseye view of students walking to class" title="Orientation" class="promo-mobile"/>
+      <div class="promo-others" role="presentation">
+        <div class="promo" role="presentation">
+          <div class="promo-img" role="presentation">
+            <img src="./resources/images/information-orientation.jpg"
+                alt="Birdseye view of students walking to class"
+                title="Orientation"/>
+            <img src="./resources/images/information-orientation-mobile.jpg"
+                alt="Birdseye view of students walking to class"
+                title="Orientation" class="promo-mobile"/>
           </div>
-          <div class="promo-desc">
+          <div class="promo-desc" role="presentation">
             <h2>Orientation date</h2>
             <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm </p>
             <a href="#" alt="" title="">Read more</a>
           </div>
         </div>
-        <div class="promo">
-          <div class="promo-img">
-            <img src="./resources/images/information-campus.jpg" alt="A map of South America on a wall in a meeting room" title="Campus"/>
-            <img src="./resources/images/information-campus-mobile.jpg" alt="A map of South America on a wall in a meeting room" title="Campus" class="promo-mobile"/>
+        <div class="promo" role="presentation">
+          <div class="promo-img" role="presentation">
+            <img src="./resources/images/information-campus.jpg"
+                alt="A map of South America on a wall in a meeting room"
+                title="Campus"/>
+            <img src="./resources/images/information-campus-mobile.jpg"
+                alt="A map of South America on a wall in a meeting room"
+                title="Campus" class="promo-mobile"/>
           </div>
-          <div class="promo-desc">
+          <div class="promo-desc" role="presentation">
             <h2>Our campus</h2>
             <p>Find which campus is close by you</p>
             <a href="#" alt="" title="">Read more</a>
           </div>
         </div>
-        <div class="promo">
-          <div class="promo-img">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="An older man with a white beard and glasses, wearing a beret" title="Guest Lecture"/>
-            <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="An older man with a white beard and glasses, wearing a beret" title="Guest Lecture" class="promo-mobile"/>
+        <div class="promo" role="presentation">
+          <div class="promo-img" role="presentation">
+            <img src="./resources/images/information-guest-lecture.jpg"
+              alt="An older man with a white beard and glasses, wearing a beret"
+              title="Guest Lecture"/>
+            <img src="./resources/images/information-guest-lecture-mobile.jpg"
+              alt="An older man with a white beard and glasses, wearing a beret"
+              title="Guest Lecture" class="promo-mobile"/>
           </div>
-          <div class="promo-desc">
+          <div class="promo-desc" role="presentation">
             <h2>Our guest lecture</h2>
             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
             <a href="#" alt="" title="">Read more</a>
@@ -115,69 +126,77 @@
     </div>
 
     <!-- course categories -->
-    <!-- title, three columns, two rows of categories -->
-    <!-- Mobile version is text buttons only, no images, all one column -->
     <div class="courses container">
-      <div class="section-header">
+      <div class="section-header" role="presentation">
         <h1>Start learning</h1>
       </div>
-      <div class="course-grid">
-        <div class="course">
-          <div class="course-img">
-            <img src="./resources/images/course-software.jpg" alt="Two computer monitors in a dimly lit room" title="Software Engineering"/>
+      <div class="course-grid" role="presentation">
+        <div class="course" role="presentation">
+          <div class="course-img" role="presentation">
+            <img src="./resources/images/course-software.jpg"
+              alt="Two computer monitors in a dimly lit room"
+              title="Software Engineering"/>
           </div>
-          <div class="course-desc">
+          <div class="course-desc" role="presentation">
             <h2>Software engineering</h2>
             <span>COURSES</span>
             <p>Web Development, Mobile Development, iOT, APIs</p>
           </div>
         </div>
-        <div class="course">
-          <div class="course-img">
-            <img src="./resources/images/course-computer-art.jpg" alt="Someone's view of their hand holding a smartphone" title="Computer Art"/>
+        <div class="course" role="presentation">
+          <div class="course-img" role="presentation">
+            <img src="./resources/images/course-computer-art.jpg"
+              alt="Someone's view of their hand holding a smartphone"
+              title="Computer Art"/>
           </div>
-          <div class="course-desc">
+          <div class="course-desc" role="presentation">
             <h2>Computer art</h2>
             <span>COURSES</span>
             <p>Imaging &amp; Design, Web Design, Motion Graphics &amp;
                 Visual Effects, Computer Animation</p>
           </div>
         </div>
-        <div class="course">
-          <div class="course-img">
-            <img src="./resources/images/course-design.jpg" alt="A person in a plaid shirt, holding a camera" title="Design"/>
+        <div class="course" role="presentation">
+          <div class="course-img" role="presentation">
+            <img src="./resources/images/course-design.jpg"
+              alt="A person in a plaid shirt, holding a camera"
+              title="Design"/>
           </div>
-          <div class="course-desc">
+          <div class="course-desc" role="presentation">
             <h2>Design</h2>
             <span>COURSES</span>
             <p>User Experience Design, User Research, Visual Design</p>
           </div>
         </div>
-        <div class="course">
-          <div class="course-img">
-            <img src="./resources/images/course-data.jpg" alt="A laptop displaying charts and graphs" title="Data"/>
+        <div class="course" role="presentation">
+          <div class="course-img" role="presentation">
+            <img src="./resources/images/course-data.jpg"
+              alt="A laptop displaying charts and graphs"
+              title="Data"/>
           </div>
-          <div class="course-desc">
+          <div class="course-desc" role="presentation">
             <h2>Data</h2>
             <span>COURSES</span>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
           </div>
         </div>
-        <div class="course">
-          <div class="course-img">
-            <img src="./resources/images/course-business.jpg" alt="An unconventional chess set" title="Business"/>
+        <div class="course" role="presentation">
+          <div class="course-img" role="presentation">
+            <img src="./resources/images/course-business.jpg"
+              alt="An unconventional chess set" title="Business"/>
           </div>
-          <div class="course-desc">
+          <div class="course-desc" role="presentation">
             <h2>Business</h2>
             <span>COURSES</span>
             <p>Product Development, Business Development, Startup</p>
           </div>
         </div>
-        <div class="course">
-          <div class="course-img">
-            <img src="./resources/images/course-marketing.jpg" alt="An arm with a smart watch" title="Marketing"/>
+        <div class="course" role="presentation">
+          <div class="course-img" role="presentation">
+            <img src="./resources/images/course-marketing.jpg"
+              alt="An arm with a smart watch" title="Marketing"/>
           </div>
-          <div class="course-desc">
+          <div class="course-desc" role="presentation">
             <h2>Marketing</h2>
             <span>COURSES</span>
             <p>Analytics, Content Marketing, Mobile Marketing</p>
@@ -187,44 +206,46 @@
     </div>
 
     <!-- Thesis exhibit -->
-    <!-- big movie, column with two small details -->
-    <!-- Mobile version is video only, no details -->
     <div class="promos container">
-      <div class="section-header">
+      <div class="section-header" role="presentation">
         <h1>Thesis exhibits</h1>
       </div>
-      <div class="promo-block flex">
-        <div class="thesis-main">
-          <div class="promo-video">
+      <div class="promo-block flex" role="presentation">
+        <div class="thesis-main" role="presentation">
+          <div class="promo-video" role="presentation">
             <video controls>
               <source src="./resources/videos/thesis.mp4">
               Your browser does not support the video text-align
             </video>
           </div>
-          <div class="promo-main-desc">
+          <div class="promo-main-desc" role="presentation">
             <h2>Reimagine urban</h2>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
               commodo lectus, nec consequat neque. Sed non accumsan urna.
-              Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
-              tristique ligula."</p>
+              Phasellus sed consequat ex. Etiam eget magna laoreet,
+              efficitur dolor consequat, tristique ligula."</p>
           </div>
         </div>
-        <div class="thesis-other flex-column">
-          <div class="promos">
-            <div class="promo">
-              <div class="promo-img">
-                <img src="./resources/images/thesis-fisma.jpg" alt="A top-down photo of a table covered in drawings and a smartphone" title="Fisma"/>
+        <div class="thesis-other flex-column" role="presentation">
+          <div class="promos" role="presentation">
+            <div class="promo" role="presentation">
+              <div class="promo-img" role="presentation">
+                <img src="./resources/images/thesis-fisma.jpg"
+                  alt="A top-down photo of a table covered in drawings and a smartphone"
+                  title="Fisma"/>
               </div>
-              <div class="promo-desc">
+              <div class="promo-desc" role="presentation">
                 <h2>Fisma: Design and Prototype</h2>
                 <p>Designer showcase of new prototype product</p>
               </div>
             </div>
-            <div class="promo">
-              <div class="promo-img">
-                <img src="./resources/images/thesis-now-and-then.jpg" alt="A landscape shot of New York City buildings" title="Now and Then"/>
+            <div class="promo" role="presentation">
+              <div class="promo-img" role="presentation">
+                <img src="./resources/images/thesis-now-and-then.jpg"
+                  alt="A landscape shot of New York City buildings"
+                  title="Now and Then"/>
               </div>
-              <div class="promo-desc">
+              <div class="promo-desc" role="presentation">
                 <h2>Now and then</h2>
                 <p>Research study about New York</p>
               </div>
@@ -235,14 +256,12 @@
     </div>
 
     <!-- footer -->
-    <!-- Copyright, terms, privacy -->
-    <!-- Mobile omits terms and privacy links -->
     <footer class="container">
-      <div class="footer">
+      <div class="legal" role="presentation">
         <span>&#169; 2017 Colmar Academy. All rights reserved</span>
         <ul>
-          <li>Terms</li>
-          <li>Privacy</li>
+          <li><a href="#" title="Terms and Conditions">Terms</a></li>
+          <li><a href="#" title="Our Privacy Policy">Privacy</a></li>
         </ul>
       </div>
     </footer>
